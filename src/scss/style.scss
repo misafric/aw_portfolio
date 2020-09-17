@@ -65,6 +65,8 @@ a.navlink:hover {
 
 /* text below plat image*/
 .description {
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -93,6 +95,77 @@ a.navlink:hover {
 }
 
 /*section progress bars*/
+
+.skills {
+    padding: 4rem 15% 7rem 5%;
+}
+
+.myskillsheader {
+    color: rgb(122, 184, 122);
+}
+
+.skillitems {
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.progress {
+    width: 20%;
+    color:white;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.progressbars {
+    width: 80%;
+    background-color: rgb(209, 241, 209);
+    text-align: right;
+    position: relative;
+    padding: 1rem;
+}
+
+.progressbar {
+    background-color: rgb(122, 184, 122);
+    height: 100%;
+    position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progressbar60 {
+    width: 60%;
+}
+
+.progressbar70 {
+    width: 70%;
+}
+
+.progressbar80 {
+    width: 80%;
+}
+
+/*section portfolio */
+.myportfolio {
+    background-color: rgb(122, 184, 122);
+    padding: 2rem 15% 6rem 15%;
+    
+}
+
+.portfolioheader {
+    color: white;
+}
+
+.placeholder {
+    
+}
+
+
+
+
 
 
 
