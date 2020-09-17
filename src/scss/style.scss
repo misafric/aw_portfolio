@@ -11,14 +11,15 @@ html, bbody {
 }
 
 .awlogo {
+    background-color: rgb(122, 184, 122);
     height: 7rem;
     margin-top: 0;
     padding-top: 0;
 }
 
 .nav {
+    background-color: rgb(122, 184, 122);
     display: flex;
-    flex-flow: wrap;
     align-items: center;
     // justify-content: space-between;
     width: 100%;
@@ -29,12 +30,19 @@ html, bbody {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
+    padding-left: 70px;
+    width: 80%;
 }
 
 a.navlink {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: honeydew;
+}
+
+a.navlink:hover {
+    color: rgb(75, 75, 75);
 }
 
 /*section with plant background */
@@ -62,12 +70,29 @@ a.navlink {
 
 /* section four Ds*/
 .fourd {
-    background-color: rgb(49, 48, 48);
-    padding-top: 3rem 15% 2rem 15%;
+    background-color: rgb(87, 86, 86);
+    padding: 1rem 5% 1rem 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: whitesmoke;
 }
+
+.fourdtext {
+    color:  rgb(122, 184, 122);
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fourdd {
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*section progress bars*/
 
 
 
